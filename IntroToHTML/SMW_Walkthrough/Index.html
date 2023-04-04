@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Intro to Html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">
+            <span>
+                <img src="https://mario.wiki.gallery/images/f/fb/Sticker_Mushroom_-_Mario_Party_Superstars.png" alt=""
+                    srcset="">
+            </span>
+            Home
+        </a>
+        <a href="#">
+            <span>
+                <img src="https://mario.wiki.gallery/images/f/fb/Sticker_Mushroom_-_Mario_Party_Superstars.png" alt=""
+                    srcset="">
+            </span>
+            Sign In
+        </a>
+        <a href="#">
+            <span>
+                <img src="https://mario.wiki.gallery/images/f/fb/Sticker_Mushroom_-_Mario_Party_Superstars.png" alt=""
+                    srcset="">
+            </span>
+            Sign Out
+        </a>
+    </nav>
+
+    <!-- ctrl+/ (comment out code) -->
+    <!-- <h2>Welcome to Mario World</h2>
+            <h3>Welcome to Mario World</h3>
+            <h4>Welcome to Mario World</h4>
+            <h5>Welcome to Mario World</h5>
+            <h6>Welcome to Mario World</h6> -->
+
+    <div id="intro"">
+                <p id=" openingP">
+        <h1>Welcome to Mario World</h1>
+        <hr style="width: 20%;" />
+        <!-- lorem*3 -->
+        <!-- initailize pretty alt+shift+f -->
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque sequi nobis dolorem, corrupti
+        exercitationem sint nisi necessitatibus assumenda! Nesciunt consectetur eius voluptatem nemo excepturi
+        commodi possimus, vitae ab dolor molestias!
+        Accusamus vero sequi quo, laudantium nobis veritatis, nostrum itaque excepturi dolorem laboriosam pariatur
+        debitis eligendi repudiandae! Labore, reiciendis. In temporibus recusandae optio adipisci aliquam
+        consequuntur similique commodi atque animi quam.
+        Enim sit reprehenderit autem deserunt a rem repellat vitae corporis, sunt mollitia id quis inventore
+        delectus quasi aliquam eveniet exercitationem unde doloremque quae velit laborum ullam corrupti! Quisquam,
+        maxime maiores.
+        </p>
+    </div>
+
+    <div class="mainContainer">
+
+
+        <div class="charaContainer">
+            <h2>Major Players</h2>
+            <h3>Good Guys</h3>
+            <!-- <ol>
+                <li>Mario</li>
+                <li>Luigi</li>
+                <li>Toad</li>
+                <li>Princess Peach</li>
+                <li>Princess Daisy</li>
+                <li>Shy Guy</li>
+            </ol> -->
+            <ul>
+                <li><img src="https://improveyourdrawings.com/wp-content/uploads/2019/02/Super-Mario-Tutorial-step-10-914x914.jpg"
+                        alt=""></li>
+
+                <li><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/63f1fa19-6c94-43b4-ba7e-e5d2ff356331/dd81xm1-dae0fbc8-bef8-4ed5-a9c6-776aa07e08aa.png/v1/fill/w_1280,h_1268,strp/luigi_icon_by_usanintendo_dd81xm1-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI2OCIsInBhdGgiOiJcL2ZcLzYzZjFmYTE5LTZjOTQtNDNiNC1iYTdlLWU1ZDJmZjM1NjMzMVwvZGQ4MXhtMS1kYWUwZmJjOC1iZWY4LTRlZDUtYTljNi03NzZhYTA3ZTA4YWEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.x7XOCPDpDOITnhVGZlPgX0zn2IG2r26_4FTNjpEq3dU"
+                        alt=""></li>
+                <li><img src="https://i.pinimg.com/originals/7a/2c/d7/7a2cd7bd49b3f53075647e7e0a7220d0.png" alt=""></li>
+                <li><img src="http://2.bp.blogspot.com/_mBPnRWznK6M/TAewjLZAKUI/AAAAAAAAAPw/vS-QQJwMXD8/s1600/Toad.jpg"
+                        alt=""></li>
+            </ul>
+        </div>
+
+        <div class="charaContainer">
+            <h3>Bad Guys from a file directory</h3>
+            <ul>
+                <li><img src="./assets/Bowser.jpg" alt=""></li>
+                <li><img src="./assets/BowserJr.jpg" alt=""></li>
+                <li><img src="./assets/Iggy.jpg" alt=""></li>
+                <li><img src="./assets/Wendy.jpg" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="customerContainer">
+            <h3>Customer Info</h3>
+            <form>
+                <label>First Name</label>
+                <input type="text" placeholder="FirstName" />
+
+                <label>Last Name</label>
+                <input type="text" placeholder="LastName" />
+
+                <label>Date of Birth</label>
+                <input type="date" placeholder="DOB" />
+
+                <label>password</label>
+                <input type="password" placeholder="password" />
+
+                <button type="submit" value="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
